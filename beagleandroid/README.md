@@ -5,10 +5,10 @@
 <ol>
 <li>
 	#####Get rowboat's android project for beaglebone
-	*mkdir RobertNelsonKernel
-	*cd RobertNelsonKernel
-	*repo init ­u git://gitorious.org/rowboat/manifest.git ­m rowboat­jb­am335x.xml 
-	*repo sync 
+	* mkdir RobertNelsonKernel
+	* cd RobertNelsonKernel
+	* repo init ­u git://gitorious.org/rowboat/manifest.git ­m rowboat­jb­am335x.xml 
+	* repo sync 
 </li>
 <li>
 
