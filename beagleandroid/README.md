@@ -1,6 +1,1 @@
-##Steps for compiling beagleandroid image.
-
-<ol>
-<li>awdf
-</li>
-</ol>
+##This contains step for creating android image for beaglebone.
