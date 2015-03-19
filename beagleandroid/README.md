@@ -4,7 +4,8 @@ This contains steps for building [AOSP](https://source.android.com/) android kit
 Reference: [http://bbbandroid.sourceforge.net/build.html](http://bbbandroid.sourceforge.net/build.html)
 
 ##Step 1:
-* First we have to [initialize a build environment](http://source.android.com/source/initializing.html)
+First we have to [initialize a build environment](http://source.android.com/source/initializing.html)
+
 	1. Install latest version of android sdk
 		<pre><code>
 			sudo add-apt-repository ppa:webupd8team/java
