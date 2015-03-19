@@ -1,7 +1,9 @@
 This contains steps for creating android image for beaglebone.
 ========
 ####We will be using linux kernel 3.8 beacause it has device tree support which can be used for PWM module or ADC without any need to recompile the kernel.
-####For this project we are using Robert Nelson's kernel 3.8 and rowboat project to compile the android.
+####For this project we are going using Robert Nelson's kernel 3.8 and rowboat project to compile the android.
+
+These details have been taken from [http://icculus.org/~hendersa/android](http://icculus.org/~hendersa/android)
 
 ##Step 1
 Get rowboat's android project for beaglebone
@@ -168,5 +170,5 @@ Now mount "boot" partition of our sd card do following changes
 We added device tree file and we changed uImage for zImage.
 Now our sd is ready to run Android with kernel 3.8 and device tree support.
 
-NOTE: adb does not work by USB, we need to connect Beaglebone Black using Ethernet
+**NOTE**: adb does not work by USB, we need to connect Beaglebone Black using Ethernet
 connector.
